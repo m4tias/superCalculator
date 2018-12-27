@@ -64,7 +64,7 @@ export default class Distrib extends React.PureComponent {
                 oweds[0].owes = Math.abs(oweds[0].owes) - Math.abs(debtor.owes);
                 personsToRender.push(
                     <Person person={debtor}
-                        type="le paga"
+                        type="pays"
                         key={personsToRender.length + 1}
                         money={Math.abs(debtor.owes).toFixed(1)}
                         toWho={oweds[0].name} />
