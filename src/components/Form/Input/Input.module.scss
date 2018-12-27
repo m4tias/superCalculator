@@ -1,0 +1,26 @@
+.label {
+  position: relative;
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 3px;
+    margin-bottom: 20px;
+  }
+  span {
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    color: #bcbcbc;
+    transition: transform 0.2s, font-size 0.2s;
+    cursor: text;
+    user-select: none;
+  }
+  input:valid {
+    padding: 18px 3px 2px;
+  }
+  input:valid + span {
+    transform: translateY(-7px);
+    font-size: 80%;
+    color: #cd3b74;
+  }
+}

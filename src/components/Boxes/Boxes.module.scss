@@ -1,0 +1,22 @@
+.boxes {
+  box-sizing: border-box;
+  padding: 2% 0;
+  width: 100%;
+  max-width: 530px;
+  margin: 0 auto;
+  text-align: center;
+  ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .button {
+    width: 85%;
+    background: #007906;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #4ec253;
+  }
+}
